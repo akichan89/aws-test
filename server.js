@@ -11,7 +11,7 @@ const login = require('./routes/login')
 const account = require('./routes/account')
 const admin = require('./routes/admin')
 
-mongoose.connect('mongodb://localhost/sample-store', (err, data) => {
+mongoose.connect('mongodb://shakespeare89:We2Otters@docdb-2020-09-23-16-30-23.cluster-cbhcrpjsxw3s.us-east-2.docdb.amazonaws.com', (err, data) => {
 	if (err){
 		console.log('DB Connection Failed')
 		return
